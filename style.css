@@ -1,0 +1,32 @@
+/*table,table header,tabledata styling*/
+Table, th, td{
+  border: 1px solid darkred;
+}
+/*table styling*/
+table {
+  width: 80%;
+  border-collapse: collapse; 
+}
+/*table head styling*/
+th{
+  height: 70px;
+  text-align: center;
+  background-color: brown;
+  color: white;
+}
+/*table data styling*/
+td{
+  text-align: center;
+  height: 45px;
+  vertical-align: midddle;
+  padding: 15px;
+}
+/*table hovering styling*/
+td:hover {
+color: white;
+  background-color: darkblue;
+}
+/*table row nth-chils styling*/
+tr:nth-child(odd){
+  background-color: lightgray;
+}
